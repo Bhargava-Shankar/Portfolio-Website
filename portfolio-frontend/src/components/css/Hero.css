@@ -1,0 +1,35 @@
+.hero-container{
+    background-color: red;
+    border-radius: 1rem;
+    height: 15rem;
+    width: calc(100% - 200px);
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.hero-content{
+    background-color: rgb(124, 124, 255);
+    padding: 15px;
+    height: 100%;
+    flex-grow: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: 600;
+}
+.hero-image{
+    background-color: rgb(177, 255, 255);
+    height: 100%;
+    width: min-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+.hero-image > img{
+    height: 200px;
+}

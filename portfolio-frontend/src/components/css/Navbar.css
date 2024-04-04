@@ -1,0 +1,10 @@
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    width: screen;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    font-size: large;
+    font-weight: 900;
+}
