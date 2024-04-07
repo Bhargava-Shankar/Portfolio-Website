@@ -1,6 +1,7 @@
-import './App.css'
+import "./App.scss"
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
+import BlogSection from './components/BlogSection'
 function App() {
 
   return (
@@ -9,6 +10,7 @@ function App() {
       <hr />
       <section className="content-container">
         <Hero></Hero>
+        <BlogSection></BlogSection>
       </section>
       
     </>

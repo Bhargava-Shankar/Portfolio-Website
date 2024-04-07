@@ -1,0 +1,75 @@
+.blog-section{
+    flex-direction: row;
+    display: flex;
+    width: calc(100% - 200px);
+    justify-content: space-between;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    gap: 36px;
+}
+
+.blog-card-container{
+    padding-top: 20px;
+    width: 26rem;
+    display: flex;
+    flex-direction: column;
+    .thumbnail{
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        background-color: rgb(121, 16, 16);
+        height: 15rem;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+}
+.details{
+    background-color: rgb(239, 239, 239);
+    padding-bottom: 15px;
+    padding-top: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    .title{
+        font-size: 1.4rem;
+        font-weight: bolder;
+    }
+    .author-details{
+        font-size: 1rem;
+        font-weight: 500;
+        color: grey;
+    }
+    .summary{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 1rem;
+        font-weight: bolder;
+        color: rgb(62, 62, 62);
+            
+    }
+}
+::-webkit-scrollbar {
+    width: 3px;
+    height: 5px;
+    border-radius: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #b6b6b6;
+    border-radius: 10px;
+    width: 5px;
+    padding: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #515151;
+}
