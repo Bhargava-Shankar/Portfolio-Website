@@ -1,35 +1,73 @@
+// .hero-container{
+//     border-radius: 1rem;
+//     padding-top: 10px;
+//     height: 16rem;
+//     width: calc(100% - 200px);
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: center;
+//     align-items: center;
+//     overflow: hidden;
+// }
+// .hero-content{
+//     background-color: rgb(124, 124, 255);
+//     padding: 15px;
+//     height: 100%;
+//     flex-grow: 5;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     font-size: large;
+//     font-weight: 600;
+// }
+// .hero-image{
+//     background-color: rgb(177, 255, 255);
+//     height: 100%;
+//     width: max-content;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     flex-grow: 1;
+// }
+// .hero-image > img{
+//     height: 200px;
+// }
 .hero-container{
-    background-color: red;
-    border-radius: 1rem;
-    height: 15rem;
-    width: calc(100% - 200px);
     display: flex;
+    width: calc(100% - 200px);
+    height: max-content;
     flex-direction: row;
-    align-self: center;
+    border-radius: 1rem;
     justify-content: center;
-    align-items: center;
-    overflow: hidden;
 }
 .hero-content{
-    background-color: rgb(124, 124, 255);
-    padding: 15px;
-    height: 100%;
-    flex-grow: 5;
+    background-color: rgb(29, 29, 70);
+    height: 300px;
+    border-radius: 1rem 0 0 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: large;
-    font-weight: 600;
+    font-size: 1.4rem;
+    flex-basis: 0;
+    flex-grow: 3;
+    p{
+        font-weight: 700;
+        color: white;
+        padding: 50px;
+        text-align: justify;
+
+    }
 }
 .hero-image{
-    background-color: rgb(177, 255, 255);
-    height: 100%;
-    width: min-content;
+    background-color: rgba(31, 111, 31, 0.871);
+    border-radius:  0 1rem 1rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-grow: 1;
-}
-.hero-image > img{
-    height: 200px;
+    flex-basis: 0;
+    img{
+        height: 200px;
+    }
+ 
 }
