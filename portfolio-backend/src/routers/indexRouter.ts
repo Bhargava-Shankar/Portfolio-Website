@@ -1,10 +1,8 @@
 import { Router } from "express";
-
+import blogRouter from "./blogRouters";
 
 const router = Router();
 
-router.get("/add", (req, res) => {
-    res.send("BLOG/ADD");
-})
+router.use("/blog",blogRouter)
 
 module.exports = { router };
