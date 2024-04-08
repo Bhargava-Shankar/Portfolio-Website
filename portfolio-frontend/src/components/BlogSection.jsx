@@ -4,16 +4,17 @@ import BlogCard from './BlogCard';
 
 const BlogSection = () => {
   return (
-      <div className='blog-section'>
-          <BlogCard></BlogCard>
-          <BlogCard></BlogCard>
-          <BlogCard></BlogCard>
-          <BlogCard></BlogCard>
-          <BlogCard></BlogCard>
-          <BlogCard></BlogCard>
-     
-
+    <div className="blog-section-container">
+        <div className='blog-section'>
+        <BlogCard></BlogCard>
+        <BlogCard></BlogCard>
+        <BlogCard></BlogCard>
+        <BlogCard></BlogCard>
+        <BlogCard></BlogCard>
+        <BlogCard></BlogCard>
+      </div>
     </div>
+   
   )
 }
 
